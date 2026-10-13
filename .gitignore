@@ -1,0 +1,27 @@
+# Dependencies and build output
+visual/node_modules/
+visual/dist/
+visual/.tmp/
+visual/webpack.statistics*.html
+bridge/node_modules/
+
+# User-specific semantic model structure; export locally per PBIX
+bridge/model-metadata/**
+!bridge/model-metadata/.gitkeep
+
+# Local configuration, logs, and test artifacts
+.env
+.env.*
+!.env.example
+bridge/*.log
+bridge/config.json
+*.pbix
+*.pbit
+*.bak
+*.tmp
+*.old
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
